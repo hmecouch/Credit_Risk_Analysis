@@ -11,33 +11,39 @@ The purpose of this analysis is to evaluate the performance of six machine learn
 - Balanced Accuracy Score: 0.65
 - Precision for high-risk loans: 0.01
 - Recall for high-risk loans: 0.61
+<img width="358" alt="naive" src="https://user-images.githubusercontent.com/114922260/223229876-6e4b8a5b-451c-4e5d-a7df-9a35079b7090.png">
 
 #### SMOTE Oversampling:
 - Balanced Accuracy Score: 0.62
 - Precision for high-risk loans: 0.01
 - Recall for high-risk loans: 0.61
+<img width="369" alt="smote" src="https://user-images.githubusercontent.com/114922260/223229909-dfee7188-dd3b-4a6f-852d-3b3abaac5b58.png">
 
 #### Undersampling:
 - Balanced Accuracy Score: 0.51
 - Precision for high-risk loans: 0.01
 - Recall for high-risk loans: 0.60
+<img width="358" alt="under" src="https://user-images.githubusercontent.com/114922260/223229941-9467af31-77e4-4a84-bf37-b2e9a5e50f4e.png">
 
 #### Combination (Over and Under) Sampling:
 - Balanced Accuracy Score: 0.64
 - Precision for high-risk loans: 0.01
 - Recall for high-risk loans: 0.70
+<img width="365" alt="under_over" src="https://user-images.githubusercontent.com/114922260/223229993-5666b1eb-ee46-41fd-9186-b29ab9c5c06a.png">
 
 #### Balanced Random Forest:
 - Balanced Accuracy Score: 0.78
 - Precision for high-risk loans: 0.04
 - Recall for high-risk loans: 0.67
+<img width="457" alt="forest" src="https://user-images.githubusercontent.com/114922260/223230020-a9df243d-5c97-492e-85d0-d045f4f21b13.png">
 
 #### Easy Ensemble AdaBoost:
 - Balanced Accuracy Score: 0.93
 - Precision for high-risk loans: 0.07
 - Recall for high-risk loans: 0.91
+<img width="370" alt="ada" src="https://user-images.githubusercontent.com/114922260/223230054-65cb7932-412f-47d6-9aa5-b932aa36cde5.png">
 
-##Summary:
+## Summary:
 The results show that the Easy Ensemble AdaBoost model had the highest balanced accuracy score of 0.93, indicating that it is the best model for predicting high-risk loans. It also had the highest precision for high-risk loans at 0.07 and the second-highest recall at 0.91.
 
 The Balanced Random Forest model had the second-highest balanced accuracy score of 0.78 and the highest recall for high-risk loans at 0.67. However, its precision for high-risk loans was low at 0.04.
